@@ -8,11 +8,11 @@ COMPANY_NAME = "Amazon.com, Inc."
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-STOCK_API_KEY = "ZAW4CJ7WI675DQKG"
-NEWS_API_KEY = "4a48f22aeab44956a3ed89902a9e5b96 "
+STOCK_API_KEY = "STOCK API KEY"
+NEWS_API_KEY = "NEWS API KEY "
 
-TWILIO_SID = "ACd64c2f1f1661ab17ed8978de3442d32c"
-TWILIO_AUTH_TOKEN = "0ee4954ed22e28883f0d42cce40473d9"
+TWILIO_SID = "TWILIO SID"
+TWILIO_AUTH_TOKEN = "TWILIO AUTH TOKEN"
 
 # Get yesterday's closing stock price.
 stock_params = {
@@ -67,6 +67,6 @@ if diff_percent > 1:
     for article in formatted_articles:
         message = client.messages.create(
             body=article,
-            from_='+12184383451',
-            to='+919163218832'
+            from_='TWILIO PHONE NUMBER',
+            to='TWILIO REGISTERED PHONE NUMBER'
         )
