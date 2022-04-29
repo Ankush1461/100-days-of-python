@@ -6,8 +6,8 @@ import requests
 from flask import Flask, render_template, request
 
 posts = requests.get("https://api.npoint.io/a957ceed601019c1896d").json()
-OWN_EMAIL = "ankushkarmakarmail@gmail.com"
-OWN_PASSWORD = "ankush12345"
+OWN_EMAIL = "abc@mydomain.xyz"
+OWN_PASSWORD = "abc@123"
 
 app = Flask(__name__)
 
