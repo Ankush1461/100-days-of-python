@@ -1,0 +1,80 @@
+{% include "header.html" %}
+
+<!-- Page Header -->
+<header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="page-heading">
+                    <h1>About Me</h1>
+                    <span class="subheading">This is what I do.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <p>
+                I am a undergraduate student studying BTech in Computer Science and
+                Engineering at Narula Institute of Technology. I love building websites. I
+                also love playting football and I am a part of the college football team.
+            </p>
+            <hr/>
+            <h3>Education</h3>
+            <p>
+            <ul>
+                <li>Narula Institute of Technology | 2019-2023
+                    <ul>
+                        <li>BTech(CSE)</li>
+                    </ul>
+                </li>
+                <li>Jodhpur Park Boys School | 2017-2019
+                    <ul>
+                        <li>Higher Secondary Education</li>
+                    </ul>
+                </li>
+                <li>Andrew's High School | 2011-2017
+                    <ul>
+                        <li>Secondary Education</li>
+                    </ul>
+                </li>
+            </ul>
+            </p>
+            <hr/>
+            <h3>Skills</h3>
+            <table cellspacing="20">
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Web Development</td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>Java Development</td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Machine Learning</td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+{% include "footer.html" %}
